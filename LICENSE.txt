@@ -1,0 +1,23 @@
+Copyright (c) 2025 Andre Kellermann
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, and distribute the Software for non-commercial purposes only, subject to
+the following conditions:
+
+1. **Non-Commercial Use Only**  
+   The Software may not be used, either directly or indirectly, for any commercial purpose.
+
+2. **No Modification or Rebranding**  
+   The Software may not be modified, forked, sublicensed, or distributed under a different name or brand.
+
+3. **No Derivative Works**  
+   Any modification, adaptation, or derivative of the Software is not permitted without express written consent.
+
+4. **Attribution Required**  
+   Any permitted use must include clear attribution to the original author and this license.
+
+5. **No Warranty**  
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+Any use of this Software outside these terms requires prior written permission from the copyright holder.
