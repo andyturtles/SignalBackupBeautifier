@@ -18,3 +18,7 @@ See LICENSE.txt
 
 If you want to thank someone: Thank the universe ;)
 This was build for the one special person, for which the entire universe conspired so that we found each other.
+
+
+![Overview](images/Signal_Backup1.png)
+![Chat](images/Signal_Backup2.png)
