@@ -1,0 +1,281 @@
+:root {
+  --body-bg: linear-gradient(180deg, #f5f7fa 0%, #c3cfe2 50%, #f5f7fa 100%);
+  --msger-bg: #fff;
+  --border: 2px solid #ddd;
+  --left-msg-bg: #cdb600;
+  --right-msg-bg: #ececec;
+  --left-msg-col: #fff;
+  --right-msg-col: #000;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100%;
+  margin:0;
+  padding:0;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin:0;
+  padding:0;
+  
+  background-image: var(--body-bg);
+  font-family: Helvetica, sans-serif;
+}
+
+.msger-header-title {
+  text-align: center;
+  font-size: 1.1em;
+  padding: 10px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+}
+
+#chat {
+  width: 100%;
+  border: 1px solid #666;
+  margin: auto;
+  max-width: 600px;
+}
+
+.left-msg .msg-quote .msg-bubble {
+  background: var(--right-msg-bg);
+  color: var(--right-msg-col);
+  margin-bottom: 1em;
+}
+
+.right-msg .msg-quote .msg-bubble {
+  background: var(--left-msg-bg);
+  color: var(--left-msg-col);
+  margin-bottom: 1em;
+  border-bottom-right-radius: 0;
+}
+
+.msg-quote {
+  border-left: 3px solid #fff;
+  margin-bottom: 10px
+}
+
+.msger-chat {
+  padding: 10px;
+}
+
+.msg {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.msg:last-of-type {
+  margin: 0;
+}
+
+.msg-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background: #ddd;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.msg-bubble {
+  max-width: 90%;
+  padding: 15px;
+  border-radius: 15px;
+  background: var(--left-msg-bg);
+  color: var(--left-msg-col);
+}
+
+.msg-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.msg-info-name {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.msg-info-name i {
+  font-weight: normal;
+}
+
+.msg-info-time {
+  font-size: 0.85em;
+}
+
+.msg-reaction {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #666;
+  text-align: right;
+  margin-top: 1em;
+  float: right;
+}
+
+.msg-attachments {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.msg-attachments img,
+.msg-attachments video {
+  width: 100%;
+  max-width: 240px;
+  margin: 0 0.5em 0.5em 0;
+}
+
+.msg-attachments video {
+  max-width: 320px;
+}
+
+.msg-reaction small {
+  font-size: 0.6em;
+}
+
+.msg-sticker {
+	width: 32%;
+	border-radius: 14px;
+}
+
+.left-msg .msg-bubble {
+  border-bottom-left-radius: 0;
+}
+
+.right-msg {
+  flex-direction: row-reverse;
+}
+
+.right-msg .msg-bubble {
+  background: var(--right-msg-bg);
+  color: var(--right-msg-col);
+  border-bottom-right-radius: 0;
+}
+
+.right-msg .msg-img {
+  margin: 0 0 0 10px;
+}
+
+
+.msger-chat {
+  background-color: #fcfcfe;
+}
+
+.idx ul {
+  display: block;
+  width: 80%;
+  margin: auto;
+  box-shadow: 1px 1px 10px #999;
+  list-style-type: none;
+  padding: 2em;
+  border-radius: 3px;
+}
+
+.idx li {
+  margin: 0.6em;
+}
+
+.idx li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.idxLink {
+  display: block;
+  width: 60%;
+  margin: auto;
+  text-decoration: none;
+  font-weight: bold;
+  border-top: 1px solid #666;
+  margin-top: 2em;
+  padding-top: 1em;
+  text-align: center;
+}
+
+.att-gal a ,
+.att-gal video,
+.att-gal audio  {
+    width: 32%;
+    display: inline-block;
+	margin: 0.5%;
+	max-height: 120px;
+}
+
+.att-gal img{
+	max-height: 120px;
+	width: auto;
+	max-width: 100%;
+	
+}
+
+
+.day-lnk {
+    display: block;
+    border-radius: 3px;
+    border-bottom: 1px solid #aaa;
+    padding: 2px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 6px;
+    margin-top: 20px;
+	color: #999;
+    font-size: 0.8em;
+}
+
+.day-lnk a {
+    text-decoration: none;
+    padding: 1px 14px;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+	margin: 4px;
+}
+
+.day-lnk > a:last-of-type {
+	margin-right: 0;
+	margin-left: 20px;
+}
+.day-lnk > a:first-of-type {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+@media (max-width: 400px) {
+	.day-lnk {
+    width: 100%;
+
+}
+
+
+.day-lnk > a:last-of-type {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.day-lnk > a:first-of-type {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+}
